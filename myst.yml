@@ -1,0 +1,35 @@
+version: 1
+project:
+  title: A kinetic model of \beta-adrenergic control in cardiac myocytes
+  authors:
+    - name: Shelley Fong
+      affiliations:
+        - >-
+          Auckland Bioengineering Institute, The University of Auckland, New
+          Zealand
+      corresponding: true
+      email: s.fong@auckland.ac.nz
+    - name: Jeffrey J. Saucerman
+      affiliations:
+        - Biomedical Engineering, The University of Virginia, USA
+  keywords:
+    - beta-adrenergic
+    - cardiac myocyte
+    - MATLAB
+  open_access: true
+  license: CC-BY-4.0
+site:
+  projects:
+    - slug: S000012
+      path: .
+  nav: []
+  actions:
+    - title: paper
+      url: Fong2021PhysiomeS000012.pdf
+      static: true
+    - title: omex
+      url: Fong2021PhysiomeS000012.omex
+      static: true
+    - title: primary
+      url: https://doi.org/unknown
+  title: A kinetic model of \beta-adrenergic control in cardiac myocytes
