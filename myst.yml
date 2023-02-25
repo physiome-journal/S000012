@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: A kinetic model of \beta-adrenergic control in cardiac myocytes
+  title: A kinetic model of β-adrenergic control in cardiac myocytes
   authors:
     - name: Shelley Fong
       affiliations:
@@ -18,6 +18,9 @@ project:
     - MATLAB
   open_access: true
   license: CC-BY-4.0
+  numbering:
+    heading_2: true
+    heading_3: true
 site:
   projects:
     - slug: S000012
