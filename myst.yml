@@ -23,6 +23,9 @@ project:
   subject: Original
   date: 2021/09/23
   doi: 10.36903/physiome.16664248
+  numbering:
+    heading_2: true
+    heading_3: true
 site:
   title: A kinetic model of β-adrenergic control in cardiac myocytes
   projects:
