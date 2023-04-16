@@ -71,7 +71,7 @@ These are the same as reported in the supplementary material of \cite{saucerman2
 This is a reduced-state version of the original model by \cite{jafri1998}, which was implemented in the MATLAB code provided by the original author. The version of the model published in \cite{saucerman2003} showed a complete version of the model as in \cite{jafri1998}, replicated to represent phosphorylated states.
 
 \subsection{Parameter Values}
-The baseline parameter values are provided in the supplementary material of \cite{saucerman2003} and in the MATLAB code provided by Saucerman. Missing values on cell geometry are provided in Table \ref{tab:parameterMods} which are used in all Figure reproductions. 
+The baseline parameter values are provided in the supplementary material of \cite{saucerman2003} and in the MATLAB code provided by Saucerman. Missing values on cell geometry are provided in \autoref{tab:parameterMods} which are used in all Figure reproductions. 
 \begin{table}[h]
     \centering
     \begin{tabular}{|l|l|l|}
@@ -202,7 +202,7 @@ Figure & Parameter values & Number of iterations & T (min)  \\
  & fracPLBo$^\dagger\ \asteq \{1,1,0,0\}$ & & \\
 \hline
 \end{tabular}
-\caption{Specific protocol followed in the reproduction of each figure, run for a span of T minutes. $\asteq, \diveq$ indicate multiplication or division of parameter by the specified value respectively. $\dagger$ denotes the variable value being changed with every iteration. One iteration constitutes running the entire model once. For multiple species being changed for one figure: for the $n$th loop iteration, the value of the species is given by the $n$th value in the sequence given in the sequence (Column 2) for all marked species. (3a, 3b): four separate iterations for every [Iso]: one control, one with changed $[AC_{tot}]$ only, one with changed $[\beta1AR_{tot}]$ only, and one with change $K_{Gs\alpha }$ only. (5): three separate iterations for every [Iso]: one control, one with changed $[PKA_{I,tot}]$ only, one with changed $[PKI_{tot}]$ only. patch clamping: Figures 2g-h, 6b follow Protocol 1; Figure 2f follows Protocol 2 (see Table \ref{tab:vprotocol}).\\ 
+\caption{Specific protocol followed in the reproduction of each figure, run for a span of T minutes. $\asteq, \diveq$ indicate multiplication or division of parameter by the specified value respectively. $\dagger$ denotes the variable value being changed with every iteration. One iteration constitutes running the entire model once. For multiple species being changed for one figure: for the $n$th loop iteration, the value of the species is given by the $n$th value in the sequence given in the sequence (Column 2) for all marked species. (3a, 3b): four separate iterations for every [Iso]: one control, one with changed $[AC_{tot}]$ only, one with changed $[\beta1AR_{tot}]$ only, and one with change $K_{Gs\alpha }$ only. (5): three separate iterations for every [Iso]: one control, one with changed $[PKA_{I,tot}]$ only, one with changed $[PKI_{tot}]$ only. patch clamping: Figures 2g-h, 6b follow Protocol 1; Figure 2f follows Protocol 2 (see \autoref{tab:vprotocol}).\\ 
 See primary paper or source code for an explanation of all chemical abbreviations.}
 \label{tab:figureConditions}
 \end{table}
@@ -232,7 +232,7 @@ See primary paper or source code for an explanation of all chemical abbreviation
     \caption{Patch clamp protocols. $R_{clamp} = 0.02\ \Omega$}
     \label{tab:vprotocol}
 \end{table}
-Experimental conditions specific to each Figure are given in Table \ref{tab:figureConditions}. For Figures 2f-h and 6b, patch clamp protocols are defined in Table \ref{tab:vprotocol}.
+Experimental conditions specific to each Figure are given in \autoref{tab:figureConditions}. For Figures 2f-h and 6b, patch clamp protocols are defined in \autoref{tab:vprotocol}.
 
 \iffalse
     \subsection{Initial conditions}
@@ -323,7 +323,7 @@ Once running, keep parpool open (change parallel preferences: adjust time to aut
     \caption{Modifications made to stated values of primary paper, in the reproduction of the figures.}
     \label{tab:parameterAdjustments}
 \end{table}
-The original implementation of the model was performed using Berkeley-Madonna software, with a different ODE solver to MATLAB \citep{saucerman2003}. As some simulation values stated in the primary paper resulted in the model being unsolvable in the MATLAB routine, we had to make adjustments as outlined in Table \ref{tab:parameterAdjustments}.
+The original implementation of the model was performed using Berkeley-Madonna software, with a different ODE solver to MATLAB \citep{saucerman2003}. As some simulation values stated in the primary paper resulted in the model being unsolvable in the MATLAB routine, we had to make adjustments as outlined in \autoref{tab:parameterAdjustments}.
 
 \section{Model Results}
 We employ Engauge Digitizer software \citep{mark_mitchell_2020_3941227} to extract data from Figures of \cite{saucerman2003} to present alongside results of the present work.
@@ -426,7 +426,7 @@ The reproduction of all figures of \cite{saucerman2003} are given in Figures \re
 
 \section{Discussion}
 
-We demonstrate that figures of \cite{saucerman2003} can be reproduced given some additions (Table \ref{tab:parameterMods}) and adjustments (Table \ref{tab:parameterAdjustments}) made to model parameter values. There are slight deviations of the curated model output from the original data which can be attributed to parameter modifications we had to make to ensure a simulation runs to completion (see Figures 1c, 1d, 3a, 3b). Other mismatches may be owing to differences from the original implementation in Berkeley-Madonna, which had different solver settings to this effort. The original code is no longer available. 
+We demonstrate that figures of \cite{saucerman2003} can be reproduced given some additions (\autoref{tab:parameterMods}) and adjustments (\autoref{tab:parameterAdjustments}) made to model parameter values. There are slight deviations of the curated model output from the original data which can be attributed to parameter modifications we had to make to ensure a simulation runs to completion (see Figures 1c, 1d, 3a, 3b). Other mismatches may be owing to differences from the original implementation in Berkeley-Madonna, which had different solver settings to this effort. The original code is no longer available. 
 
 As this paper follows the tenets of FAIR \citep{wilkinson2016fair}, further credibility is lent to the original model. The model has already proven to be valuable to the mathematical modelling community in understanding the workings of $\beta$-adrenergic receptor signalling within cardiac myocytes.
 
