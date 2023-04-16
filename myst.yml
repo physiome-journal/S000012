@@ -1,6 +1,10 @@
 version: 1
 project:
   title: A kinetic model of β-adrenergic control in cardiac myocytes
+  description: >-
+    The system of equations and figures presented in Saucerman et al., 2003 are
+    verified and reproduced in this paper’s curation effort.
+  thumbnail: thumbnail.png
   authors:
     - name: Shelley Fong
       orcid: 0000-0001-8610-1088
