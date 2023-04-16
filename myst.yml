@@ -5,15 +5,29 @@ project:
     - name: Shelley Fong
       orcid: 0000-0001-8610-1088
       affiliations:
-        - >-
-          Auckland Bioengineering Institute, The University of Auckland, New
-          Zealand
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
       corresponding: true
       email: s.fong@auckland.ac.nz
     - name: Jeffrey J. Saucerman
       orcid: 0000-0001-9464-8374
       affiliations:
         - Biomedical Engineering, The University of Virginia, USA
+  editors:
+    - name: David P. Nickerson
+      orcid: 0000-0003-4667-9779
+      role: Editor
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+    - name: Weiwei Ai
+      orcid: 0000-0001-5602-5707
+      role: Curator
+      affiliations:
+        - Auckland Bioengineering Institute, University of Auckland, New Zealand
+  history:
+    - date: 2021/09/03
+      type: accepted
+    - date: 2021/09/23
+      type: published
   keywords:
     - beta-adrenergic
     - cardiac myocyte
