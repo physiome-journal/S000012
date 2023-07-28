@@ -46,10 +46,6 @@ project:
     heading_3: true
 site:
   title: A kinetic model of β-adrenergic control in cardiac myocytes
-  projects:
-    - slug: S000012
-      path: .
-  nav: []
   actions:
     - title: paper
       url: Fong2021PhysiomeS000012.pdf
@@ -59,3 +55,5 @@ site:
       static: true
     - title: primary
       url: https://doi.org/10.1074/jbc.m308362200
+  domains:
+    - physiome-S000012.curve.space
